@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        BB0000000000000000000001 /* BatteryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* BatteryMonitor.swift */; };
+        BB0000000000000000000002 /* BatteryPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* BatteryPanel.swift */; };
+        BB0000000000000000000003 /* BatteryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* BatteryReader.swift */; };
+        BB0000000000000000000004 /* BatteryReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* BatteryReading.swift */; };
+        BB0000000000000000000005 /* LoginItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* LoginItem.swift */; };
+        BB0000000000000000000006 /* SMCReader.c in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* SMCReader.c */; };
+        BB0000000000000000000007 /* WattBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* WattBarApp.swift */; };
+        BB0000000000000000000008 /* WattBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* WattBarSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        AA0000000000000000000001 /* BatteryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryMonitor.swift; sourceTree = "<group>"; };
+        AA0000000000000000000002 /* BatteryPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryPanel.swift; sourceTree = "<group>"; };
+        AA0000000000000000000003 /* BatteryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryReader.swift; sourceTree = "<group>"; };
+        AA0000000000000000000004 /* BatteryReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryReading.swift; sourceTree = "<group>"; };
+        AA0000000000000000000005 /* LoginItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginItem.swift; sourceTree = "<group>"; };
+        AA0000000000000000000006 /* SMCReader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SMCReader.c; sourceTree = "<group>"; };
+        AA0000000000000000000007 /* WattBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WattBarApp.swift; sourceTree = "<group>"; };
+        AA0000000000000000000008 /* WattBarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WattBarSettings.swift; sourceTree = "<group>"; };
+        DD0000000000000000000001 /* SMCReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMCReader.h; sourceTree = "<group>"; };
+        FF0000000000000000000005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        FF0000000000000000000004 /* WattBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = WattBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+        FF0000000000000000000001 = {
+            isa = PBXGroup;
+            children = (
+                FF0000000000000000000002 /* WattBar */,
+                FF0000000000000000000003 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        FF0000000000000000000002 /* WattBar */ = {
+            isa = PBXGroup;
+            children = (
+                AA0000000000000000000001 /* BatteryMonitor.swift */,
+                AA0000000000000000000002 /* BatteryPanel.swift */,
+                AA0000000000000000000003 /* BatteryReader.swift */,
+                AA0000000000000000000004 /* BatteryReading.swift */,
+                AA0000000000000000000005 /* LoginItem.swift */,
+                AA0000000000000000000006 /* SMCReader.c */,
+                AA0000000000000000000007 /* WattBarApp.swift */,
+                AA0000000000000000000008 /* WattBarSettings.swift */,
+                DD0000000000000000000001 /* SMCReader.h */,
+                FF0000000000000000000005 /* Info.plist */,
+            );
+            path = WattBar;
+            sourceTree = "<group>";
+        };
+        FF0000000000000000000003 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                FF0000000000000000000004 /* WattBar.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        FF0000000000000000000006 /* WattBar */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = FF000000000000000000000C;
+            buildPhases = (
+                FF0000000000000000000007 /* Sources */,
+                FF0000000000000000000008 /* Frameworks */,
+                FF0000000000000000000009 /* Resources */,
+            );
+            buildRules = ();
+            dependencies = ();
+            name = WattBar;
+            productName = WattBar;
+            productReference = FF0000000000000000000004;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        FF000000000000000000000A /* Project object */ = {
+            isa = PBXProject;
+            attributes = { LastUpgradeCheck = 2700; };
+            buildConfigurationList = FF000000000000000000000B;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = "zh-Hans";
+            hasScannedForEncodings = 0;
+            knownRegions = ("zh-Hans", en, Base);
+            mainGroup = FF0000000000000000000001;
+            productRefGroup = FF0000000000000000000003;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                FF0000000000000000000006 /* WattBar */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+        FF0000000000000000000007 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                BB0000000000000000000001 /* BatteryMonitor.swift in Sources */,
+                BB0000000000000000000002 /* BatteryPanel.swift in Sources */,
+                BB0000000000000000000003 /* BatteryReader.swift in Sources */,
+                BB0000000000000000000004 /* BatteryReading.swift in Sources */,
+                BB0000000000000000000005 /* LoginItem.swift in Sources */,
+                BB0000000000000000000006 /* SMCReader.c in Sources */,
+                BB0000000000000000000007 /* WattBarApp.swift in Sources */,
+                BB0000000000000000000008 /* WattBarSettings.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        FF0000000000000000000008 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+        FF0000000000000000000009 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        FF000000000000000000000D /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ARCHS = arm64;
+                CLANG_ENABLE_MODULES = YES;
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        FF000000000000000000000E /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ARCHS = arm64;
+                CLANG_ENABLE_MODULES = YES;
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+            };
+            name = Release;
+        };
+        FF000000000000000000000F /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_STYLE = Manual;
+                ENABLE_APP_SANDBOX = NO;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = WattBar/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = app.wattbar.WattBar;
+                PRODUCT_NAME = WattBar;
+                SWIFT_OBJC_BRIDGING_HEADER = WattBar/SMCReader.h;
+                SWIFT_VERSION = 6.0;
+            };
+            name = Debug;
+        };
+        FF0000000000000000000010 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_STYLE = Manual;
+                ENABLE_APP_SANDBOX = NO;
+                GENERATE_INFOPLIST_FILE = NO;
+                INFOPLIST_FILE = WattBar/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = app.wattbar.WattBar;
+                PRODUCT_NAME = WattBar;
+                SWIFT_OBJC_BRIDGING_HEADER = WattBar/SMCReader.h;
+                SWIFT_VERSION = 6.0;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        FF000000000000000000000B = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                FF000000000000000000000D /* Debug */,
+                FF000000000000000000000E /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        FF000000000000000000000C = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                FF000000000000000000000F /* Debug */,
+                FF0000000000000000000010 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = FF000000000000000000000A /* Project object */;
+}
